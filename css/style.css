@@ -231,7 +231,7 @@ figure {
       padding: 0 1em; } }
 
 #colorlib-hero {
-  min-height: 500px;
+  max-height: 480px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -380,8 +380,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,8 +394,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .author-img {
   background-size: cover;
@@ -405,17 +405,17 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
-  line-height: 1.8;
+  line-height: 1;
   position: relative; }
   .colorlib-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-heading {
-      margin-bottom: 3em; } }
+      margin-bottom: 1em; } }
 
 .heading-meta {
   margin-bottom: 15px;
@@ -1405,19 +1405,19 @@ body.offcanvas {
   padding-bottom: 7em; }
   @media screen and (max-width: 768px) {
     .row-bottom-padded-lg {
-      padding-bottom: 1em; } }
+      padding-bottom: 0em; } }
 
 .row-bottom-padded-md {
   padding-bottom: 3em; }
   @media screen and (max-width: 768px) {
     .row-bottom-padded-md {
-      padding-bottom: 1em; } }
+      padding-bottom: 0em; } }
 
 .row-bottom-padded-sm {
   padding-bottom: 1em; }
   @media screen and (max-width: 768px) {
     .row-bottom-padded-sm {
-      padding-bottom: 1em; } }
+      padding-bottom: 0em; } }
 
 .row-pt-md {
   padding-top: 3em; }
